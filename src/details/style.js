@@ -1,7 +1,6 @@
 import styled from "styled-components";
 export const Container = styled.div `
 
-padding: 50px;
 
 h1 {
     margin: 3rem 0;
@@ -11,7 +10,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .info{
@@ -29,7 +28,7 @@ img {
 }
 
 span {
-    line-height:200%;
+    line-height:130%;
     font-weight: bold;
     font-size: 120%;
     margin-botton: 1rem;
@@ -53,6 +52,12 @@ button {
 
 button:hover {
     background: #584c2;
+}
+
+.trailer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
 }
 
 `
